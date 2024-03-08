@@ -23,7 +23,7 @@ spec:
 
   steps:
     - name: notify-slack
-      image: stakater/pipeline-toolbox:v0.0.36
+      image: http://ghcr.io/stakater/pipeline-toolbox:v0.0.37
       env:
         - name: SLACK_WEBHOOK
           valueFrom:
